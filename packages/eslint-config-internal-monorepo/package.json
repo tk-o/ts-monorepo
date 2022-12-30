@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-internal-monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "license": "MIT",
+  "files": [
+    "cra.js",
+    "nextjs.js"
+  ],
+  "dependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-next": "13.1.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-config-turbo": "latest",
+    "eslint-plugin-react": "7.31.11"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

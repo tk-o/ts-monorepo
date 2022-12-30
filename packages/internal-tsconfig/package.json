@@ -1,0 +1,11 @@
+{
+  "name": "internal-tsconfig",
+  "private": true,
+  "version": "0.0.0",
+  "files": [
+    "base.json",
+    "cra.json",
+    "nextjs.json",
+    "react-library.json"
+  ]
+}
